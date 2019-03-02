@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Kamil Jozwik page`,
+    title: `Kamil Jozwik`,
     description: `Welcome to Kamil Jozwik's page!`,
     author: `@jozwikk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

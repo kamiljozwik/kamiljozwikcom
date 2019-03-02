@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header';
+// import Header from './header';
 import '../styles/index.scss';
 
 const Layout = ({ children }) => (
@@ -18,10 +18,10 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <div>
           <main>{children}</main>
-          <footer>{new Date().getFullYear()}</footer>
+          {/* <footer>{new Date().getFullYear()}</footer> */}
         </div>
       </>
     )}

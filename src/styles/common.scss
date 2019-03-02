@@ -1,0 +1,16 @@
+// breakpoints
+$desktop: 1800px;
+$landscape: 1200px;
+$portrait: 900px;
+$phone: 600px;
+$xsmall: 400px;
+
+html {
+  height: calc(100% + 150px);
+  box-sizing: border-box;
+  body{
+      font-family: "Roboto-Regular", sans-serif;
+      position: relative;
+      min-height: 100%;
+  }
+}
